@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        height: 500vh;
+        background-image: linear-gradient(red, yellow, blue);
+      }
+      .index {
+        height: 20px;
+        background-color: black;
+        color: aliceblue;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        font-size: small;
+        text-align: center;
+      }
+      .nav {
+        background-color: antiquewhite;
+        height: 35px;
+        top: 0;
+        position: sticky;
+      }
+      .logo {
+        right: 20px;
+        bottom: 20px;
+        position: fixed;
+        border: 2px solid black;
+        border-radius: 100%;
+        background-color: pink;
+        height: 50px;
+        width: 50px;
+      }
+      .box{
+        height: 100px;
+        width: 100px;
+        background-color: orange;
+        border: 2px solid black;
+        
+      }
+      .flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: start;
+        flex-wrap: wrap;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="index">100% Pure Coconut oil</div>
+    <nav class="nav"></nav>
+    <div class="flex">
+      <div class="box">.</div>
+      <div class="box">.</div>
+      <div class="box">.</div>
+      <div class="box">.</div>
+      <div class="box">.</div>
+      <div class="box">.</div>
+    </div>
+    <div class="logo"></div>
+  </body>
+</html>

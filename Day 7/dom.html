@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script>
+      const Image = document.getElementById("img");
+      const Button = document.getElementById("btn");
+
+      Button.addEventListener("click", () => {
+        if (Image.src.match("off.gif")) {
+          Image.src="on.gif"
+        }else {
+          Image.src = "off.gif";
+        }
+    });
+  </script>
+  <body>
+    <img id="img" width="200rem" src="off.gif" alt="Image" />
+    <button id="btn">On</button>
+  </body>
+</html>

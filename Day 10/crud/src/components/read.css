@@ -1,0 +1,45 @@
+p{
+  font-size: xx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  font-style :inherit;
+}
+table {
+    border: 2px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: left;
+    font-family: Arial, sans-serif;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  td {
+    font-size: 14px;
+  }
+  
+  td.actions {
+    cursor: pointer;
+  }
+  
+  td.actions.edit {
+    color: blue;
+  }
+  
+  td.actions.delete {
+    color: red;
+  }
+  
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  

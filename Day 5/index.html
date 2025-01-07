@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<style>
+    .navbar{
+        box-shadow: 1px 0px 10px 2px;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+        
+      </nav>
+    
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="height: 600px;">
+            <img src="https://m.media-amazon.com/images/I/8157jzWk-8L._AC_UF1000,1000_QL80_.jpg" class="d-block w-100"" class="d-block w-100" alt="..." style="height: 590px;">
+            <div class="carousel-caption d-none d-md-block" style="color: black;">
+              <h5>Tom & jerry</h5>
+              <p>Watch on cartoon network</p>
+            </div>
+          </div>
+          <div class="carousel-item" style="height: 600px;">
+            <img src="https://deadline.com/wp-content/uploads/2024/09/Pokemon_f45a58.jpg?w=681&h=383&crop=1" class="d-block w-100" class="d-block w-100" alt="..."  style="height: 590px;">
+            <div class="carousel-caption d-none d-md-block" style="color: black;">
+              <h5>Pokemon</h5>
+              <p>Ash & Pikachu</p>
+            </div>
+          </div>
+          <div class="carousel-item" style="height: 600px;">
+            <img src="https://i.ytimg.com/vi/qV0PIc5rjPA/sddefault.jpg" class="d-block w-100" class="d-block w-100" alt="..."  style="height: 590px;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Shinchan</h5>
+              <p>Play some games together.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section class="parent">
+        <div class="child col-12 col-sm-6 col-md-4 col-lg-3" style="background-color: red;" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius unde labore aperiam dolores corporis veniam dignissimos quod reiciendis placeat cum?</div>
+        <div class="child col-12 col-sm-6 col-md-4 col-lg-3"  style="background-color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius unde labore aperiam dolores corporis veniam dignissimos quod reiciendis placeat cum?</div>
+        <div class="child col-12 col-sm-6 col-md-4 col-lg-3"  style="background-color: green;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius unde labore aperiam dolores corporis veniam dignissimos quod reiciendis placeat cum?</div>
+        <div class="child col-12 col-sm-6 col-md-4 col-lg-3"  style="background-color: yellow;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius unde labore aperiam dolores corporis veniam dignissimos quod reiciendis placeat cum?</div>
+      </section>
+</body>
+</html>
